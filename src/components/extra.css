@@ -1,0 +1,27 @@
+/* Hide slick-slider on mobile */
+@media (max-width: 768px) {
+    .slick-slider {
+        display: none !important;
+    }
+    .alice-carousel {
+        display: block !important;
+    }
+    .icon-color, .location-icon{
+        position: relative !important;
+        top:-7px !important;
+    }
+}
+.alice-carousel__dots{
+    display: none !important;
+}
+
+
+/* Hide AliceCarousel on desktop */
+@media (min-width: 769px) {
+    .slick-slider {
+        display: block !important;
+    }
+    .alice-carousel {
+        display: none !important;
+    }
+}

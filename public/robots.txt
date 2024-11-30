@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.api.stanleyestates.in/api/sitemap/index.xml
+Sitemap: https://www.stanleyestates.in/sitemap.xml
