@@ -3,6 +3,7 @@ import Properties_listings from './Properties_listings'
 import { Link } from 'react-router-dom'
 import { Breadcrumbs } from '@mui/material';
 import wp from "../assets/watsappicon.png";
+import wp1 from "../assets/call.png";
 
 function Properties() {
 
@@ -30,6 +31,9 @@ function Properties() {
                     <i className="fa fa-whatsapp"></i>
                     <img src={wp} alt="watsapp icon" className="wapp-wh"/>
                 </a>
+                <a href="tel:+919620675555" className="wtbtn  btn-circle  fixedbutton-whatsapp1" id="call" role="button" type="button">
+          <img src={wp1} alt="call icon" className="wapp-wh1" />
+        </a>
             </section>
             {/* ADD SUB COMPONENTS */}
             <div className='container'>

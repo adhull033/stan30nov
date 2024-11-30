@@ -66,9 +66,9 @@ function Index() {
       </Helmet>
       
       <New_home />
-      <a href="https://wa.me/9620675555?text=Hello%20!" target="_blank" className="wtbtn  btn-circle  fixedbutton-whatsapp1" id="webcall" role="button" type="button">
+      <a href="https://wa.me/+919620675555?text=Hello%20!" target="_blank" className="wtbtn  btn-circle  fixedbutton-whatsapp1" id="webcall" role="button" type="button">
           <i className="fa fa-whatsapp"></i>
-          <img src={wp} alt="watsapp icon" className="wapp-wh" />
+          <img src={wp} alt="watsapp icon" className="wapp-wh" /> 
         </a>
         <a href="tel:+919620675555" className="wtbtn  btn-circle  fixedbutton-whatsapp1" id="call" role="button" type="button">
           <img src={wp1} alt="call icon" className="wapp-wh1" />

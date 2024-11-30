@@ -1,5 +1,7 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
+import wp from "../assets/watsappicon.png";
+import wp1 from "../assets/call.png";
 
 const PrivacyPolicy = () => {
   return (
@@ -44,6 +46,13 @@ The personal information provided by the users to us will not be provided to thi
                 <p>Emma Stanley Pvt Ltd has taken all reasonable steps to ensure that information on this site is authentic. Users are advised to research bonafides of advertisers independently. Emma Stanley Pvt Ltd shall not have any responsibility in this regard. We also recommend that you visit the link to User agreement/Disclaimer for more comprehensive information on this</p>
             </div>
         </Row>
+        <a href="/wp" target="_blank" className="wtbtn  btn-circle  fixedbutton-whatsapp1" id="webcall" role="button" type="button">
+                    <i className="fa fa-whatsapp"></i>
+                    <img src={wp} alt="watsapp icon" className="wapp-wh"/>
+                </a>
+                <a href="tel:+919620675555" className="wtbtn  btn-circle  fixedbutton-whatsapp1" id="call" role="button" type="button">
+          <img src={wp1} alt="call icon" className="wapp-wh1" />
+        </a>
     </Container>
   )
 }
