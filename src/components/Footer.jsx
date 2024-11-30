@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios';
 import stanly_logo from '../assets/stanly-logo.png'
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
-import { FiPhoneCall, FiMapPin, FiMail, FiFacebook, FiInstagram, FiYoutube, FiTwitter } from "react-icons/fi";
+import { FiPhoneCall, FiMapPin, FiMail, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiLinkedin } from "react-icons/fi";
 import { Form } from 'react-bootstrap'
 import { toast } from 'react-toastify';
 import { useFormik } from 'formik';
@@ -198,9 +198,8 @@ function Footer() {
                   display: "flex",
                   justifyContent: "flex-end",
                 }}
-              ><a href="https://x.com" target="_blank" rel="noopener noreferrer"><FiFacebook className='icons-footer fticon fticon1' /></a><a href="https://x.com" target="_blank" rel="noopener noreferrer"><FiYoutube className='icons-footer fticon fticon1' /></a><a href="https://x.com" target="_blank" rel="noopener noreferrer"><FiInstagram className='icons-footer fticon fticon1' /></a><a href="https://x.com" target="_blank" rel="noopener noreferrer">
-                  <FiTwitter className="icons-footer fticon" />
-                </a> </div>
+              ><a href="https://www.facebook.com/people/Stanley-Estates/100092447722815/" target="_blank" rel="noopener noreferrer"><FiFacebook className='icons-footer fticon fticon1' /></a><a href="https://www.linkedin.com/company/stanley-estates/" target="_blank" rel="noopener noreferrer"><FiLinkedin className='icons-footer fticon fticon1' /></a><a href="https://www.instagram.com/stanley_estates/" target="_blank" rel="noopener noreferrer"><FiInstagram className='icons-footer fticon' /></a>
+</div>
             </div>
           </div>
           <div className="row mt-3 footbortop">
