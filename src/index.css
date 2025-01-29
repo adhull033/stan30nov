@@ -4528,6 +4528,14 @@ select.propety-select-btn {
   z-index: 2;
 }
 
+.slide-description1{
+  margin-top: 0px;
+  color: #fff !important;
+  font-family: "Poppins", sans-serif;
+  background-color: #0a243f !important;
+  z-index: 2;
+}
+
 .slide-size {
   font-weight: 400 !important;
   font-size: 12px !important;
@@ -4760,4 +4768,13 @@ select.propety-select-btn {
 
 .fticon1{
   margin-right: 40px !important;
+}
+
+.propimg{
+  height: 221.33px !important;
+  object-fit: cover;
+  width: 100%;
+}
+.stw{
+  color: #DCB88B !important;
 }

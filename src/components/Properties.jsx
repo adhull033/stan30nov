@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Properties_listings from './Properties_listings'
 import { Link } from 'react-router-dom'
 import { Breadcrumbs } from '@mui/material';
+import { Helmet } from "react-helmet";
 import wp from "../assets/watsappicon.png";
 import wp1 from "../assets/call.png";
 
@@ -16,6 +17,14 @@ function Properties() {
     console.log(process.env.REACT_APP_API_URL);
     return (
         <>
+        <Helmet>
+        <meta name="title" content="Find Your Dream Home in Bangalore – Exclusive Listings and Expert Advice - Stanely-Estate" />
+        <title>Properties - Stanley Estates </title>
+        <meta
+          name="description"
+          content="Discover a wide range of luxury homes, condos, and apartments for sale in Bangalore. Our experienced real estate agents are here to guide you through the buying process. Start your search today and find your dream home."
+        />
+      </Helmet>
             <section className='bg-properties'>
                 <div className="container">
                     <div className="row d-conten-center">

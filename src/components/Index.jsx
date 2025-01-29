@@ -58,7 +58,7 @@ function Index() {
     <>
       <Helmet>
         <meta name="title" content="Find Your Dream Home in Bangalore – Exclusive Listings and Expert Advice - Stanely-Estate" />
-        <title>Stanely-Estate</title>
+        <title>Stanley Estates</title>
         <meta
           name="description"
           content="Discover a wide range of luxury homes, condos, and apartments for sale in Bangalore. Our experienced real estate agents are here to guide you through the buying process. Start your search today and find your dream home."

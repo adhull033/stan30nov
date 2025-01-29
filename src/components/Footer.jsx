@@ -108,7 +108,7 @@ function Footer() {
               <div className='getul'>
                 <h6 className='getintouch'>Get In Touch</h6>
                 <p><span><FiMapPin className='icons-footer' /></span>
-                  <span className='text-justify '>No. 136,Jal Vayu Towers, NGEF Layout,<br></br> Bayappanahalli,Indiranagar Post, Bengaluru,<br></br>Bengaluru Urban, Karnataka, 560038</span></p>
+                  <span className='text-justify '>Beginest Habor 2, 3488, 14th Main Rd, behind<br></br>New Horizon Public School, HAL 2nd Stage,<br></br>Indiranagar, Bengaluru, Karnataka - 560008</span></p>
                 <p><span><FiPhoneCall className='icons-footer' /></span><span>+91 96206 75555</span></p>
                 <p><span><FiMail className='icons-footer' /></span><span>stanley@stanleyestates.in</span></p>
               </div>
@@ -163,14 +163,14 @@ function Footer() {
                   </button>
               </div>*/}
               <div>
-                <div className="mapouter"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=bangalore&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
+                <div className="mapouter"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Stanley+Estates&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
               </div>
             </div>
           </div>
           <div className="row mt-5">
             <div className="col-lg-8 col-sm-12 col-md-6">
               <div>
-                <h6 className='foo-head'>Our Projects - Bangalore | Goa | Chennai</h6>
+                <h6 className='foo-head'>Our Projects - Bangalore</h6>
                 {/*<p className='foo-para'>Recent Projects in Bangalore | Recent Projects in Goa | Recent Projects in Chennai</p>*/}
               </div>
               {/*<div>
