@@ -70,16 +70,7 @@ const Propertieunderconstruction = ({ filteredData: initialFilteredData }) => {
                     <button
                         onClick={fetchMoreData}
                         disabled={loading}
-                        style={{
-                            padding: '10px 20px',
-                            fontSize: '16px',
-                            backgroundColor: '#007bff',
-                            color: '#fff',
-                            border: 'none',
-                            borderRadius: '5px',
-                            cursor: 'pointer',
-                        }}
-                    >
+                        className='booknow-btn btn12 button-top align-item-center'>
                         {loading ? 'Loading...' : 'Load More'}
                     </button>
                 </div>

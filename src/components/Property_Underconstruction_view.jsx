@@ -18,22 +18,22 @@ const Property_Underconstruction_view = ({ propertyitem }) => {
                     <div className="slide-label">{propertyitem?.attributes?.locality}</div>
                     <div className="slide-price">₹{propertyitem?.attributes?.price} <br />Onwards</div>
                         <img src={`${process.env.REACT_APP_API_URL}${propertyitem?.attributes?.images?.data[0]?.attributes?.url}`} alt="property listing images" className='img-fluid propimg'></img>
-                        <div className='slide-description1'>
-                                                    <div className="slide-title stw">{propertyitem?.attributes?.title}</div>
+                        <div className='slide-description'>
+                                                    <div className="slide-title">{propertyitem?.attributes?.title}</div>
                                                     <div className="slide-size">
                                                     <div className="slide2">{propertyitem?.attributes?.Project?.Unit_Variants}</div>
                                                         <div className="slide1">{propertyitem?.attributes?.Project?.Size_Range}</div>
                                                     </div></div>
                     </div>
-                    <div className='slide-description1 pt-2 pb-2'>
+                    <div className='slide-description pt-2 pb-2'>
                         <div className='d-flex justify-content-around '>
-                    <div className="btn-contact-1 d-flex align-items-center">
-                            <Link to={`/${propertyitem?.attributes?.slug}`} className='btn-txt1  nav-link'>
+                    <div className="btn-contact-11 d-flex align-items-center">
+                            <Link to={`/${propertyitem?.attributes?.slug}`} className='btn-txt1 btn13'>
                                 View Details
                             </Link>
                         </div>
                         
-                            <button variant="primary" onClick={handleShow} className='booknow-btn button-top align-item-center'>Enquiry Now</button>
+                            <button variant="primary" onClick={handleShow} className='booknow-btn btn11 button-top align-item-center'>Enquiry Now</button>
                             </div>
                         <FormComponent show={show} onHide={handleClose} />
                         </div>

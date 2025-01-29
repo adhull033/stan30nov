@@ -195,10 +195,10 @@ function Properties_listings() {
                                 </Modal.Body>
                                 <Modal.Footer className='flex-nowrap'>
                                   
-                                    <Button variant="secondary" onClick={handleClear} className=''>
+                                    <Button variant="secondary" onClick={handleClear} className='btn12'>
                                     Clear All
                                     </Button>
-                                    <Button variant="primary" onClick={() => setShowModal(false)} className='booknow-btn button-top align-item-center'>
+                                    <Button variant="primary" onClick={() => setShowModal(false)} className='btn12 booknow-btn button-top align-item-center'>
                                         Apply Filters
                                     </Button>
                                   
@@ -210,7 +210,7 @@ function Properties_listings() {
                                 <div className="col d-flex justify-content-between">
                                     <h3 className="header-h2 text-sm-center text-lg-start">Property Listings</h3>
                                     <div className='w-25 d-flex justify-content-end'>
-                                    <Button variant="primary" onClick={() => setShowModal(true)} className=' booknow-btn button-top align-item-center'>
+                                    <Button variant="primary" onClick={() => setShowModal(true)} className=' btn12 booknow-btn button-top align-item-center'>
                             Filters
                         </Button></div>
                                 </div>

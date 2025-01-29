@@ -4528,13 +4528,7 @@ select.propety-select-btn {
   z-index: 2;
 }
 
-.slide-description1{
-  margin-top: 0px;
-  color: #fff !important;
-  font-family: "Poppins", sans-serif;
-  background-color: #0a243f !important;
-  z-index: 2;
-}
+
 
 .slide-size {
   font-weight: 400 !important;
@@ -4775,6 +4769,27 @@ select.propety-select-btn {
   object-fit: cover;
   width: 100%;
 }
-.stw{
-  color: #DCB88B !important;
+.btn-contact-11 {
+  color: #0a243f !important;
+  border: 1px solid #0a243f;
+  padding: 0 10px 0 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.btn11{
+  background: var(--01, linear-gradient(66deg, #7D644A 0%, #0a243f 100%)) !important;
+}
+
+.btn12{
+  border-radius: 0px !important;
+}
+
+.btn13{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #0a243f !important;
+  text-decoration: none;
 }
