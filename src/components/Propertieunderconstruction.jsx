@@ -12,14 +12,14 @@ const Propertieunderconstruction = ({ filteredData: initialFilteredData }) => {
     const mergeWithoutDuplicates = (existingData, newData) => {
         const mergedData = [...existingData];
         const existingIds = new Set(existingData.map((item) => item.id));
-        
+
         newData.forEach((item) => {
             if (!existingIds.has(item.id)) {
                 mergedData.push(item);
                 existingIds.add(item.id);
             }
         });
-        
+
         return mergedData;
     };
 
@@ -60,6 +60,23 @@ const Propertieunderconstruction = ({ filteredData: initialFilteredData }) => {
 
     return (
         <>
+            <section className='mb-4'>
+                <div class="container-fluid sec-bortopbot" bis_skin_checked="1">
+                    <div class="row" bis_skin_checked="1">
+                        <div class="col-lg-6 col-md-6 col-sm-12  p-0 dflex-aligns" bis_skin_checked="1">
+                            <div class="bg-blue05 image11 p-lg-5 p-md-3 p-sm-2" bis_skin_checked="1">
+                                <p class="col-lg-10 about-para mt-lg-2 text-justify">North Bangalore is the city’s booming hub of progress, striking a perfect balance between urban development and natural tranquility. Home to tech parks like Manyata Tech Park and Kirloskar Business Park, this area is ideal for professionals looking to stay close to their workplaces. With the presence of Kempegowda International Airport, North Bangalore has become a gateway to global connectivity.</p>
+                                <p class="col-lg-10 about-para mt-lg-2 text-justify">Residential options here cater to a variety of preferences, from luxury villas in areas like Yelahanka and Hebbal to modern apartments in Jakkur. The region boasts excellent infrastructure with well-planned roadways, reputed educational institutions, such as Canadian International School and Stonehill International, and lush green spaces like Lumbini Gardens and Nandi Hills for weekend getaways.
+                                    Whether you’re a young professional or a family looking for convenience and lifestyle, North Bangalore is the perfect mix of potential and peace.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 sec-bortopbot1 p-0" bis_skin_checked="1">
+                            <img src="/static/media/house-structure.cdf8f5f4e9b6fd166d6d.png" alt="About" class="img-fluid-fill">
+                            </img>
+                        </div>
+                    </div>
+                </div>
+            </section>
             {filteredData?.map((propertyitem) => (
                 <Property_Underconstruction_view key={propertyitem.id} propertyitem={propertyitem} />
             ))}
