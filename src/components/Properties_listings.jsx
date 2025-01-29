@@ -232,6 +232,7 @@ function Properties_listings() {
                                         <TabList onChange={handleTabChange} variant="scrollable" scrollbuttons="true">
                                             <Tab label="East" value="East" className='muitab_label1' />
                                             <Tab label="West" value="West" className='muitab_label1' />
+                                            <Tab label="North" value="CBD" className='muitab_label1' />
                                             <Tab label="North" value="North" className='muitab_label1' />
                                             <Tab label="South" value="South" className='muitab_label1' />
                                         </TabList>
@@ -249,6 +250,14 @@ function Properties_listings() {
                                             <div className="container">
                                                 <div className="row">
                                                     <Propertiereadytomove filteredData={filteredData} />
+                                                </div>
+                                            </div>}
+                                    </TabPanel>
+                                    <TabPanel value="CBD" className='property_tabpanel'>
+                                        {
+                                            <div className="container">
+                                                <div className="row">
+                                                    <Propertieunfurnished filteredData={filteredData} />
                                                 </div>
                                             </div>}
                                     </TabPanel>
