@@ -4494,14 +4494,15 @@ select.propety-select-btn {
   top: 38px;
   left: 20px;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  font-weight: 600;
+  letter-spacing: 1px;
   max-width: max-content;
-  color: #fff;
+  color: #f0f0f0;
   background-color: #0a243f;
   padding: 3px 10px;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 10px;
+  text-transform: uppercase;
   z-index: 1;
 }
 
@@ -4793,3 +4794,4 @@ select.propety-select-btn {
   color: #0a243f !important;
   text-decoration: none;
 }
+

@@ -237,7 +237,7 @@ function Properties_listings() {
                                             <Tab label="South" value="South" className='muitab_label1' />
                                         </TabList>
                                     </Box>
-                                    <TabPanel value="East" className='property_tabpanel'>
+                                    <TabPanel value="East" className='property_tabpanel' sx={{ padding: '0px' }}>
                                         {
                                             <div className="container">
                                                 <div className="row">
@@ -245,7 +245,7 @@ function Properties_listings() {
                                                 </div>
                                             </div>}
                                     </TabPanel>
-                                    <TabPanel value="West" className='property_tabpanel'>
+                                    <TabPanel value="West" className='property_tabpanel' sx={{ padding: '0px' }}>
                                         {
                                             <div className="container">
                                                 <div className="row">
@@ -253,7 +253,7 @@ function Properties_listings() {
                                                 </div>
                                             </div>}
                                     </TabPanel>
-                                    <TabPanel value="CBD" className='property_tabpanel'>
+                                    <TabPanel value="CBD" className='property_tabpanel' sx={{ padding: '0px' }}>
                                         {
                                             <div className="container">
                                                 <div className="row">
@@ -261,7 +261,7 @@ function Properties_listings() {
                                                 </div>
                                             </div>}
                                     </TabPanel>
-                                    <TabPanel value="North" className='property_tabpanel'>
+                                    <TabPanel value="North" className='property_tabpanel' sx={{ padding: '0px' }}>
                                         {
                                             <div className="container">
                                                 <div className="row">
@@ -269,7 +269,7 @@ function Properties_listings() {
                                                 </div>
                                             </div>}
                                     </TabPanel>
-                                    <TabPanel value="South" className='property_tabpanel'>
+                                    <TabPanel value="South" className='property_tabpanel' sx={{ padding: '0px' }}>
                                         {
                                             <div className="container">
                                                 <div className="row">

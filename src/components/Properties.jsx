@@ -26,7 +26,7 @@ function Properties() {
         />
       </Helmet>
             <section className='bg-properties'>
-                <div className="container">
+                {/*<div className="container">
                     <div className="row d-conten-center">
                         <div className="col-lg-12 col-md-12 col-sm-12">
                             <div>
@@ -35,7 +35,7 @@ function Properties() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>*/}
                 <a href="/wp" target="_blank" className="wtbtn  btn-circle  fixedbutton-whatsapp1" id="webcall" role="button" type="button">
                     <i className="fa fa-whatsapp"></i>
                     <img src={wp} alt="watsapp icon" className="wapp-wh"/>
