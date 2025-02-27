@@ -64,14 +64,14 @@ const Propertiereadytomove = ({ filteredData: initialFilteredData }) => {
             <section className='mb-2'>
                 <div class="container-fluid" bis_skin_checked="1">
                     <div class="row" bis_skin_checked="1">
-                        <div class=" col-lg-7 col-md-6 col-sm-12 p-0 pe-1 dflex-aligns" bis_skin_checked="1">
-                            <div class="p-0" bis_skin_checked="1">
-                                <p class="col-lg-12 about-para mt-lg-2 text-justify">North Bangalore is the city’s booming hub of progress, striking a perfect balance between urban development and natural tranquility. Home to tech parks like Manyata Tech Park and Kirloskar Business Park, this area is ideal for professionals looking to stay close to their workplaces. With the presence of Kempegowda International Airport, North Bangalore has become a gateway to global connectivity.</p>
-                                <p class="col-lg-12 about-para mt-lg-2 text-justify">Residential options here cater to a variety of preferences, from luxury villas in areas like Yelahanka and Hebbal to modern apartments in Jakkur. The region boasts excellent infrastructure with well-planned roadways, reputed educational institutions, such as Canadian International School and Stonehill International, and lush green spaces like Lumbini Gardens and Nandi Hills for weekend getaways.
-                                    Whether you’re a young professional or a family looking for convenience and lifestyle, North Bangalore is the perfect mix of potential and peace.</p>
+                        <div class=" col-lg-7 col-md-6 col-sm-12 p-0 pe-md-1 dflex-aligns" bis_skin_checked="1">
+                            <div class="p-0 pt-3 pt-lg-0" bis_skin_checked="1">
+                                <p class="col-lg-12 about-para mt-lg-2 text-justify">West Bangalore is a hidden gem undergoing rapid transformation. Known for its industrial zones like Peenya and Tumkur Road, this region is evolving into a residential and commercial hotspot. Areas like Rajajinagar, Vijayanagar, and Nayandahalli are popular for their accessibility and affordability.</p>
+                                <p class="col-lg-12 about-para mt-lg-2 text-justify">With upcoming metro lines and infrastructural projects, connectivity to other parts of the city is improving dramatically. West Bangalore is also home to iconic landmarks like ISKCON Temple and Orion Mall, offering a mix of spirituality and modern leisure.</p>
+                                <p class="col-lg-12 about-para mt-lg-2 text-justify">Affordable housing options and a strong sense of community make West Bangalore a great choice for first-time homebuyers and those seeking long-term investments.</p>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-6 col-sm-12 sec-bortopbot1 pb-3 ps-3 pt-3 pe-0" bis_skin_checked="1">
+                        <div class="col-lg-5 col-md-6 col-sm-12 sec-bortopbot11 pb-3 ps-0 ps-md-3 pt-3 pe-0" bis_skin_checked="1">
                             <img src="https://www.api.stanleyestates.in/uploads/WEST_4db890fb3c.png" alt="About" class="img-fluid-fill">
                             </img>
                         </div>

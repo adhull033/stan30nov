@@ -1172,10 +1172,7 @@ a:hover {
   text-decoration: none;
 }
 
-.img-fluid-fill {
-  width: 100%;
-  height: -webkit-fill-available;
-}
+
 
 .video-img {
 
@@ -2014,7 +2011,7 @@ body .header2 {
 
 .bg-white-cart {
   background-color: #FFFFFF !important;
-  box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 8px 0 #0a243fab;
 }
 
 .properties_cart-head {
@@ -4795,3 +4792,6 @@ select.propety-select-btn {
   text-decoration: none;
 }
 
+.w-35 {
+  width: 30% !important;
+}

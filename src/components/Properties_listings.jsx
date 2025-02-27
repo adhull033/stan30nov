@@ -154,7 +154,7 @@ function Properties_listings() {
                                             <Accordion.Item eventKey="1">
                                                 <Accordion.Header className='accortian-label'>Bedrooms</Accordion.Header>
                                                 <Accordion.Body>
-                                                    {["2 BHK", "2.5 BHK", "3 BHK", "3.5 BHK", "4 BHK", "4.5 BHK", "5 BHK"].map((bhk) => (
+                                                    {["1 BHK", "2 BHK", "2.5 BHK", "3 BHK", "3.5 BHK", "4 BHK", "4.5 BHK", "5 BHK"].map((bhk) => (
                                                         <button
                                                             key={bhk}
                                                             onClick={() => handleBHKFilter(bhk)}
@@ -205,11 +205,11 @@ function Properties_listings() {
                                 </Modal.Footer>
                             </Modal>
                         </div>
-                        <div className="col-lg-12 col-md-8 col-sm-12">
+                        <div className="col-lg-12 col-md-12 col-sm-12">
                             <div className="row">
                                 <div className="col d-flex justify-content-between">
                                     <h3 className="header-h2 text-sm-center text-lg-start">Property Listings</h3>
-                                    <div className='w-25 d-flex justify-content-end'>
+                                    <div className='w-35 d-flex justify-content-end'>
                                     <Button variant="primary" onClick={() => setShowModal(true)} className=' btn12 booknow-btn button-top align-item-center'>
                             Filters
                         </Button></div>

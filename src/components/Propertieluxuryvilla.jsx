@@ -67,14 +67,14 @@ const Propertieluxuryvilla = ({ filteredData: initialFilteredData }) => {
             <section className='mb-2'>
                 <div class="container-fluid" bis_skin_checked="1">
                     <div class="row" bis_skin_checked="1">
-                        <div class=" col-lg-7 col-md-6 col-sm-12 p-0 pe-1 dflex-aligns" bis_skin_checked="1">
-                            <div class="p-0" bis_skin_checked="1">
-                                <p class="col-lg-12 about-para mt-lg-2 text-justify">North Bangalore is the city’s booming hub of progress, striking a perfect balance between urban development and natural tranquility. Home to tech parks like Manyata Tech Park and Kirloskar Business Park, this area is ideal for professionals looking to stay close to their workplaces. With the presence of Kempegowda International Airport, North Bangalore has become a gateway to global connectivity.</p>
-                                <p class="col-lg-12 about-para mt-lg-2 text-justify">Residential options here cater to a variety of preferences, from luxury villas in areas like Yelahanka and Hebbal to modern apartments in Jakkur. The region boasts excellent infrastructure with well-planned roadways, reputed educational institutions, such as Canadian International School and Stonehill International, and lush green spaces like Lumbini Gardens and Nandi Hills for weekend getaways.
-                                    Whether you’re a young professional or a family looking for convenience and lifestyle, North Bangalore is the perfect mix of potential and peace.</p>
+                        <div class=" col-lg-7 col-md-6 col-sm-12 p-0 pe-md-1 dflex-aligns" bis_skin_checked="1">
+                            <div class="p-0 pt-3 pt-lg-0" bis_skin_checked="1">
+                                <p class="col-lg-12 about-para mt-lg-2 text-justify">East Bangalore is synonymous with Bangalore’s rise as the Silicon Valley of India. Known for its IT hubs like Whitefield and EPIP Zone, this part of the city thrives on innovation and enterprise. The area is a hotspot for professionals working with multinational corporations and tech giants.</p>
+                                <p class="col-lg-12 about-para mt-lg-2 text-justify">Beyond its workspaces, East Bangalore offers a high standard of living with premium residential communities in Whitefield, Marathahalli, and Varthur. Shopping malls like Phoenix Marketcity and VR Bengaluru add to the cosmopolitan vibe, while renowned schools and hospitals ensure a well-rounded lifestyle.</p>
+                                <p class="col-lg-12 about-para mt-lg-2 text-justify">Nature enthusiasts can find solace in green spaces like the Krishnarajapuram Lake and Kadugodi Park. East Bangalore is perfect for those who desire a fast-paced lifestyle with all the luxuries at their fingertips.</p>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-6 col-sm-12 sec-bortopbot1 pb-3 ps-3 pt-3 pe-0" bis_skin_checked="1">
+                        <div class="col-lg-5 col-md-6 col-sm-12 sec-bortopbot11 pb-3 ps-0 ps-md-3 pt-3 pe-0" bis_skin_checked="1">
                             <img src="https://www.api.stanleyestates.in/uploads/EAST_d9120dfec5.png" alt="About" class="img-fluid-fill">
                             </img>
                         </div>

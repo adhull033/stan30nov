@@ -12,10 +12,10 @@ function About_us() {
                         <div className="col-lg-6 col-md-6 col-sm-12  p-0 dflex-aligns">
                             <div className='bg-blue05 image11 p-lg-5 p-md-3 p-sm-2'>
                                 <h2 className='about-head'>About Us</h2>
-                                <p className='col-lg-10 about-para mt-lg-2 text-justify'>
+                                <p className='col-lg-10 about-para about-para1 mt-lg-2 text-justify'>
                                 At the Stanely Group, we believe the good life isn't a destination, it's a journey. This quest has led us through roads less travelled, uncharted mindscapes and places beyond the common to bring luxury lifestyles that transcend cliches.
                                 </p>
-                                <p className='col-lg-10 about-para mt-lg-2 text-justify'>
+                                <p className='col-lg-10 about-para about-para1 mt-lg-2 text-justify'>
                                 Stanely residential properties are future-ready, ahead of time. The design features considered essential today are already in place across Stanely properties and were conceived years ago. This is made possible by our 'Future First' vision. A vision to see where the world is headed and to consistently have the agility to get there.
                                 </p>
                             </div>

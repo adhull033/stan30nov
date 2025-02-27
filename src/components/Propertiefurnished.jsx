@@ -64,14 +64,14 @@ const Propertiefurnished = ({ filteredData: initialFilteredData }) => {
             <section className='mb-2'>
                 <div class="container-fluid" bis_skin_checked="1">
                     <div class="row" bis_skin_checked="1">
-                        <div class=" col-lg-7 col-md-6 col-sm-12 p-0 pe-1 dflex-aligns" bis_skin_checked="1">
-                            <div class="p-0" bis_skin_checked="1">
-                                <p class="col-lg-12 about-para mt-lg-2 text-justify">North Bangalore is the city’s booming hub of progress, striking a perfect balance between urban development and natural tranquility. Home to tech parks like Manyata Tech Park and Kirloskar Business Park, this area is ideal for professionals looking to stay close to their workplaces. With the presence of Kempegowda International Airport, North Bangalore has become a gateway to global connectivity.</p>
-                                <p class="col-lg-12 about-para mt-lg-2 text-justify">Residential options here cater to a variety of preferences, from luxury villas in areas like Yelahanka and Hebbal to modern apartments in Jakkur. The region boasts excellent infrastructure with well-planned roadways, reputed educational institutions, such as Canadian International School and Stonehill International, and lush green spaces like Lumbini Gardens and Nandi Hills for weekend getaways.
-                                    Whether you’re a young professional or a family looking for convenience and lifestyle, North Bangalore is the perfect mix of potential and peace.</p>
+                        <div class=" col-lg-7 col-md-6 col-sm-12 p-0 pe-md-1 dflex-aligns" bis_skin_checked="1">
+                            <div class="p-0 pt-3 pt-lg-0" bis_skin_checked="1">
+                                <p class="col-lg-12 about-para mt-lg-2 text-justify">South Bangalore stands as the cultural heart of the city, steeped in tradition while embracing the pulse of contemporary life. Areas like Jayanagar, Basavanagudi, and Banashankari are known for their old-world charm, tree-lined streets, and a tight-knit community vibe.</p>
+                                <p class="col-lg-12 about-para mt-lg-2 text-justify">Educational institutions such as Christ University and Indian Institute of Management (IIM) Bangalore elevate the academic profile of this region. South Bangalore is also a foodie’s paradise, with iconic spots like Vidyarthi Bhavan and Brahmin’s Coffee Bar offering unforgettable culinary experience.</p>
+                                <p class="col-lg-12 about-para mt-lg-2 text-justify">The area has witnessed a rise in modern housing projects in Kanakapura Road and Bannerghatta Road, making it an attractive destination for families and investors alike. For those seeking a mix of culture, convenience, and calm, South Bangalore stands unparalleled.</p>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-6 col-sm-12 sec-bortopbot1 pb-3 ps-3 pt-3 pe-0" bis_skin_checked="1">
+                        <div class="col-lg-5 col-md-6 col-sm-12 sec-bortopbot11 pb-3 ps-0 ps-md-3 pt-3 pe-0" bis_skin_checked="1">
                             <img src="https://www.api.stanleyestates.in/uploads/SOUTH_405bc2306a.png" alt="About" class="img-fluid-fill">
                             </img>
                         </div>
