@@ -7,11 +7,13 @@ import Properties from './components/Properties';
 // import Detailing_page from './components/Detailing_page';
 import Details from './components/Datails';
 import Footer from './components/Footer';
+import BlogDetails from './components/BlogDetails';
 import Send_enquiry from './components/Send_enquiry';
 // import Detail_Testing from './components/Detail_Testing';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import BlogList from './components/BlogList';
 import { useEffect } from 'react';
 import axios from "axios";
 import { useDispatch } from 'react-redux';
@@ -40,6 +42,8 @@ function App() {
           <Route path='/properties' element={<Properties/>} />
           <Route path='/:slug' element={<Details/>} />
           <Route path='/send' element={<Send_enquiry/>} />
+          <Route path="/blog" element={<BlogList />} />
+          <Route path="/blog/:slug" element={<BlogDetails />} />
           <Route path='/privacy-policy' element={<PrivacyPolicy/>} />
         </Routes>
         <Footer/>

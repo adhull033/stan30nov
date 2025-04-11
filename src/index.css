@@ -1585,6 +1585,11 @@ a:hover {
   color: #FFFFFF !important;
   font-weight: 500;
   font-size: 16px;
+  text-decoration: none !important;
+}
+
+.foo-head:hover {
+  color: #dcb88b !important;
 }
 
 .foo-para {
@@ -4794,4 +4799,32 @@ select.propety-select-btn {
 
 .w-35 {
   width: 30% !important;
+}
+
+@media (min-width: 992px) {
+  .w-desktop-img {
+    width: 35% !important;
+  }
+}
+
+.blog-hero{
+  height:300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  display: flex;
+}
+.color-blur-overlay {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(#256bcb69, #252d3869); /* Semi-transparent color */
+
+} 
+.hero-h1{
+z-index: 2;
 }

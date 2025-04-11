@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios';
 import stanly_logo from '../assets/stanly-logo.png'
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
+import { Link } from "react-router-dom"
 import { FiPhoneCall, FiMapPin, FiMail, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiLinkedin } from "react-icons/fi";
 import { Form } from 'react-bootstrap'
 import { toast } from 'react-toastify';
@@ -170,7 +171,21 @@ function Footer() {
           <div className="row mt-5">
             <div className="col-lg-8 col-sm-12 col-md-6">
               <div>
-                <h6 className='foo-head'>Our Projects - Bangalore</h6>
+                <Link
+                  to="https://www.api.stanleyestates.in/uploads/Stanley_Estates_Portfolio_8b768157aa.pdf"
+                  className='foo-head'
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Portfolio
+                </Link><br></br>
+                <Link
+                  to="/properties"
+                  className='foo-head'
+                >
+                  Our Projects - Bangalore
+                </Link>
+                
                 {/*<p className='foo-para'>Recent Projects in Bangalore | Recent Projects in Goa | Recent Projects in Chennai</p>*/}
               </div>
               {/*<div>
@@ -199,7 +214,7 @@ function Footer() {
                   justifyContent: "flex-end",
                 }}
               ><a href="https://www.facebook.com/people/Stanley-Estates/100092447722815/" target="_blank" rel="noopener noreferrer"><FiFacebook className='icons-footer fticon fticon1' /></a><a href="https://www.linkedin.com/company/stanley-estates/" target="_blank" rel="noopener noreferrer"><FiLinkedin className='icons-footer fticon fticon1' /></a><a href="https://www.instagram.com/stanley_estates/" target="_blank" rel="noopener noreferrer"><FiInstagram className='icons-footer fticon' /></a>
-</div>
+              </div>
             </div>
           </div>
           <div className="row mt-3 footbortop">
