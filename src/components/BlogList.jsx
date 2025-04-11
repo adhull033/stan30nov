@@ -62,7 +62,7 @@ const BlogList = () => {
                 const formattedDate = new Date(publishedAt).toLocaleDateString();
 
                 return (
-                    <div key={blog.id} className="d-lg-flex flex flex-col md:flex-row bg-white shadow rounded-lg overflow-hidden">
+                    <div key={blog.id} className="d-lg-flex blogcard flex flex-col md:flex-row bg-white shadow rounded-lg overflow-hidden">
                         <img
                             src={imageUrl}
                             alt={Title}
