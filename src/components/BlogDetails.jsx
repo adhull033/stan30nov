@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import location from "../assets/date.svg";
 
 const BlogDetail = () => {
   const { slug } = useParams();
@@ -88,7 +89,7 @@ const BlogDetail = () => {
       {detailApi ? (
         <>
           <h1 className="mb-3 blog-head1">{title}</h1>
-          <p className="mb-3 property-cart_para">{formattedDate}</p>
+          <div className='d-flex'><p><span><img height='23px' width='22px' src={location} alt='Details' className='img-fluid '></img></span> &nbsp; <span className='property-cart_para '>{formattedDate}</span></p></div>
           <img
             src={image}
             alt={title}

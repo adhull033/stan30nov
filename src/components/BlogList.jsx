@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import location from "../assets/date.svg";
 
 const BlogList = () => {
     const [blogs, setBlogs] = useState([]);
@@ -70,7 +71,7 @@ const BlogList = () => {
                         />
                         <div className="p-4 md:w-2/3">
                             <h2 className="text-2xl blog-title mb-2">{Title}</h2>
-                            <p className="text-gray-500 property-cart_para text-sm mb-2">{formatDate(publishedAt)}</p>
+                            <div className='d-flex'><p><span><img height='23px' width='22px' src={location} alt='Details' className='img-fluid '></img></span> &nbsp; <span className='property-cart_para '>{formatDate(publishedAt)}</span></p></div>
                             <p className="mb-4 blog-about_para">
                                 {extractTextFromContent(blog.attributes.Content)}
                             </p>
