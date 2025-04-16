@@ -120,9 +120,9 @@ function Header() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className='navbar text-align-center'>
               <Nav className="mx-auto  nav_links   ">
-                <Link to="/" className='nav-link space-align'>Home</Link>
                 <Link to="/ourstory" className='nav-link space-align'>About Us</Link>
                 <Link to="/properties" className='nav-link space-align'>Projects</Link>
+                <Link to="/blog" className='nav-link space-align'>Blog</Link>
                 <Link
                   to="https://www.api.stanleyestates.in/uploads/Stanley_Estates_Portfolio_8b768157aa.pdf"
                   className='nav-link space-align'
