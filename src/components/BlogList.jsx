@@ -49,6 +49,7 @@ const BlogList = () => {
             <div
                 className="blog-hero"
                 style={{
+                  
                     backgroundImage: 'url("https://www.api.stanleyestates.in/uploads/9_a09a2489db.jpg")',
                 }}
             >

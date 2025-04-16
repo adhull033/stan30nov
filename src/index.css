@@ -4856,3 +4856,7 @@ font-weight: 400;
   color: #0A243F;
   margin-left: 3px;
 }
+
+.blog-hero{
+  background-size: cover;
+}
