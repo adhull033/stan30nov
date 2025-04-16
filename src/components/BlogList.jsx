@@ -48,7 +48,7 @@ const BlogList = () => {
             <div
                 className="blog-hero"
                 style={{
-                    backgroundImage: 'url("static/media/Bed%20room.5286a6bf18ec8d9813fb.jpg")',
+                    backgroundImage: 'url("https://www.api.stanleyestates.in/uploads/9_a09a2489db.jpg")',
                 }}
             >
                 <div class="color-blur-overlay" bis_skin_checked="1"></div>
@@ -62,16 +62,16 @@ const BlogList = () => {
                 const formattedDate = new Date(publishedAt).toLocaleDateString();
 
                 return (
-                    <div key={blog.id} className="d-lg-flex blogcard flex flex-col md:flex-row bg-white shadow rounded-lg overflow-hidden">
+                    <div key={blog.id} className="d-lg-flex blogcard flex flex-col md:flex-row bg-white rounded-lg overflow-hidden">
                         <img
                             src={imageUrl}
                             alt={Title}
                             className="w-desktop-img w-full md:w-1/3 object-cover h-64 md:h-auto"
                         />
                         <div className="p-4 md:w-2/3">
-                            <h2 className="text-2xl font-bold mb-2">{Title}</h2>
+                            <h2 className="text-2xl blog-title mb-2">{Title}</h2>
                             <p className="text-gray-500 property-cart_para text-sm mb-2">{formatDate(publishedAt)}</p>
-                            <p className="mb-4 detais-about_para">
+                            <p className="mb-4 blog-about_para">
                                 {extractTextFromContent(blog.attributes.Content)}
                             </p>
 

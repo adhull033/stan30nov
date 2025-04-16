@@ -4830,4 +4830,29 @@ z-index: 2;
 
 .blogcard{
   margin-bottom: 20px;
+  box-shadow: 3px 3px 8px 0 #0a243fab;
+}
+
+.blog-about_para{
+font-family: "Poppins", sans-serif !important;
+text-align: justify;
+font-size: 14px;
+font-weight: 400;
+}
+
+.blog-title{
+  font-family: "Poppins", sans-serif !important;
+  text-align: justify;
+  font-size: 28px;
+  font-weight: 600; 
+}
+
+
+.blog-head1 {
+  font-size: 28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  color: #0A243F;
+  margin-left: 3px;
 }

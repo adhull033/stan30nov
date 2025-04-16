@@ -87,7 +87,7 @@ const BlogDetail = () => {
       {/* Blog Content */}
       {detailApi ? (
         <>
-          <h1 className="mb-3 cart-head1">{title}</h1>
+          <h1 className="mb-3 blog-head1">{title}</h1>
           <p className="mb-3 property-cart_para">{formattedDate}</p>
           <img
             src={image}
@@ -99,7 +99,7 @@ const BlogDetail = () => {
           {detailApi.attributes.Content.map((block, idx) => {
             switch (block.type) {
               case "paragraph":
-                return <p key={idx} className="detais-about_para">{block.children[0]?.text}</p>;
+                return <p key={idx} className="blog-about_para">{block.children[0]?.text}</p>;
               case "heading":
                 const HeadingTag = `h${block.level || 2}`;
                 return <HeadingTag key={idx}>{block.children[0]?.text}</HeadingTag>;
